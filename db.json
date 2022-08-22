@@ -1,7 +1,7 @@
 {
   "clientes": [
     {
-      "nombre": "Edgar - ACTUALIZADO",
+      "nombre": "Edgar - ACTUALIZAD8",
       "empresa": "Codigo Con Juan",
       "email": "correo@correo.com",
       "telefono": "129918398193",
@@ -15,6 +15,14 @@
       "telefono": "9183981398139",
       "notas": "",
       "id": 7
+    },
+    {
+      "nombre": "Luis",
+      "empresa": "LuxAmazing",
+      "email": "alfonso.montalvo.m@gmail.com",
+      "telefono": "3213331372",
+      "notas": "fffffffffffff",
+      "id": 8
     }
   ]
 }

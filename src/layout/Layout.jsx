@@ -9,7 +9,7 @@ const Layout = () => {
       <div className="md:w-1/4 bg-blue-900 px-5 py-10">
         <img
           className="h-11 object-fit: scale-down"
-          src="https://res.cloudinary.com/koolgram/image/upload/v1661128582/topclinet_logo_kdexaa.png"
+          src="https://res.cloudinary.com/koolgram/image/upload/v1661153368/topclinet_logo2_ie9kxu.png"
           alt=""
         />
 

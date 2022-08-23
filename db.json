@@ -1,14 +1,6 @@
 {
   "clientes": [
     {
-      "nombre": "Edgar - ACTUALIZAD8",
-      "empresa": "Codigo Con Juan",
-      "email": "correo@correo.com",
-      "telefono": "129918398193",
-      "notas": "El Cliente solicita un servidor",
-      "id": 6
-    },
-    {
       "nombre": "Juan",
       "empresa": "Codigo Con Juan",
       "email": "correo@correo.com",

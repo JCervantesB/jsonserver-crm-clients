@@ -7,20 +7,19 @@ import EditarCliente from "./paginas/EditarCliente";
 import VerCliente from "./paginas/VerCliente";
 
 function App() {
-    console.log(import.meta.env)
-
   return (
-      <BrowserRouter>
-          <Routes>
-              <Route path="/clientes" element={<Layout />}>
-                  <Route index element={<Inicio />} />
-                  <Route path="nuevo" element={<NuevoCliente />} />
-                  <Route path="editar/:id" element={<EditarCliente />} />
-                  <Route path=":id" element={<VerCliente />} />
-              </Route>
-          </Routes>
-      </BrowserRouter>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />} />
+        <Route path="/clientes" element={<Layout />}>
+          <Route index element={<Inicio />} />
+          <Route path="nuevo" element={<NuevoCliente />} />
+          <Route path="editar/:id" element={<EditarCliente />} />
+          <Route path=":id" element={<VerCliente />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
